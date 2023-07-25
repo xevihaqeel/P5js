@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>HTML Grouping</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link href="index.css" rel = "stylesheet">
+    </head>
+
+    <body>
+        <header>
+        <!-- header is a group of introductory or navigational aids -->
+        <!-- typically used for masthead at top of page, BUT does not have to, could have multiple headers on page and in different positions -->
+            <h1><a href="http://htmlandcssbook.com/code-samples/chapter-17/example.html" target="_blank">Yoko's Kitchen</a></h1>
+            <nav>
+            <!-- nav element identifies an area for primary navigation links -->
+                <ul>
+                    <li><a href="" class="current">home</a></li>
+                    <li><a href="">classes</a></li>
+                    <li><a href="">catering</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <!--The main element represents the main content of the body of a document or application. The main content area consists of content that is directly related to or expands upon the central topic of a document or central functionality of an application.-->
+            <section class="courses">
+                <!-- section used to group thematically related content -->
+                <article>
+                <!-- article is a specialized type of section that is used for self-contained works (Could this appear on another site and make sense?) -->
+                <!-- covers newspaper articles, blog posts, comments -->
+                    <figure>
+                    <!-- figure is used for content that illustrates or supports some point in the text-->
+                        <img src="http://htmlandcssbook.com/code-samples/chapter-17/images/bok-choi.jpg" alt="Bok Choi">
+                        <figcaption>Bok Choi</figcaption>
+                    </figure>
+                    <h2>Japanese Vegetarian</h2>
+                    <p>Five week course in London</p>
+                    <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+                </article>
+                <article>
+                    <figure>
+                        <img src="http://htmlandcssbook.com/code-samples/chapter-17/images/teriyaki.jpg" alt="Teriyaki sauce">
+                        <figcaption>Teriyaki Sauce</figcaption>
+                    </figure>
+                    <h2>Sauces Masterclass</h2>
+                    <p>One day workshop</p>
+                    <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
+                </article>
+            </section>
+        </main>
+        <aside>
+        <!-- asides are for tangentially related information -->
+        <!-- typically on the side as a sidebar, but don't have to be. If this can be removed without affecting the meaning of the main content, then you are ok to use it -->
+            <section class="popular-recipes">
+                <h2>Popular Recipes</h2>
+                    <ul>
+                        <li><a href="">Yakitori (grilled chicken)</a></li>
+                        <li><a href="">Tsukune (minced chicken patties)</a></li>
+                        <li><a href="">Okonomiyaki (savory pancakes)</a></li>
+                        <li><a href="">Mizutaki (chicken stew)</a></li>
+                    </ul>
+            </section>
+            <section class="contact-details">
+                <h2>Contact</h2>
+                <p>Yoko's Kitchen<br>
+                    27 Redchurch Street<br>
+                    Shoreditch<br>
+                    London E2 7DP</p>
+            </section>
+        </aside>
+        <footer>
+        <!-- footer needs to contain information about its containing element: who wrote it, copyright information, links to related content -->
+        <!-- does not have to appear at the bottom, though that is typical. There can be multiple footers on a page -->
+            © 2011 Yoko's Kitchen
+        </footer>
+
+    </body>
+
+</html>
